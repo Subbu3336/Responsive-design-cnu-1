@@ -37,17 +37,6 @@ div{
 	margin:  8px 0px;
 }
 
-.ps-text-title{
-	font-size: 18px;
-	line-height: 34px;
-	margin: 12px 0px;
-}
-
-.ps-text-description{
-	font-size: 16px;
-	line-height: 20px;
-}
-
 @media (min-width: 768px) and (max-width: 1079px) {
 	.ps-image-text{
 		flex: 0 0 48%;
@@ -76,11 +65,14 @@ div{
 }
 
 @media (min-width: 1400px) {
+	.ps-body-container{
+		flex-flow: row nowrap;
+	}
 	.ps-image img{
 		max-height: none;
 	}
 	.ps-image-text{
-		flex: 0 0 calc(50% - 20px);
+		/*flex: 0 0 calc(50% - 20px);*/
 		border: 1px solid #cccccc;
     	margin: 10px 10px;
     	display: flex;
